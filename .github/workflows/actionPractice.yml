@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Start workflow message
-        echo "Now running build workflow."
+        run: echo "Now running build workflow."
         
       # Runs a set of commands using the runners shell
       - name: Ending workflow message
